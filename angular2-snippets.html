@@ -1,0 +1,23 @@
+<!-- ng2-ngClass -->
+<div [ngClass]="{cssClass: expression}"></div>
+
+<!-- ng2-ngFor -->
+<div *ngFor="#item of list"></div>
+
+<!-- ng2-ngIf -->
+<div *ngIf="expression"></div>
+
+<!-- ng2-ngModel -->
+<div [(ngModel)]="binding"></div>
+
+<!-- ng2-routerLink -->
+<div [routerLink]="['routeName']"></div>
+
+<!-- ng2-ngStyle -->
+<div [ngStyle]="{style: expression}"></div>
+
+<!-- ng2-ngSwitch -->
+<div [ngSwitch]="conditionExpression">
+    <div *ngSwitchWhen="expression">output</div>
+    <div *ngSwitchDefault>output2</div>
+</div>
